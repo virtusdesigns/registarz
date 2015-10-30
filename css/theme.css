@@ -212,10 +212,10 @@
   color: #fff;
 }
 .mfp-iframe-holder .mfp-content {
-  max-width: 1280px;
+  max-width: 1280px !important;
 }
 .mfp-iframe-scaler {
-  padding-top: 40.25%;
+  padding-top: 40.25% !important;
 }
 /*!
  *  Font Awesome 4.4.0 by @davegandy - http://fontawesome.io - @fontawesome
