@@ -207,9 +207,26 @@
   background-size: cover;
   text-align: center;
   color: #fff;
+  font-family: ProximaNovaRegular, sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+#footer p {
+  margin-bottom: 20px;
 }
 #footer a {
   color: #fff;
+  font-size: 14px;
+}
+#footer a:hover {
+  text-decoration: underline;
+}
+#footer .social-connect {
+  margin-top: 40px;
+}
+#footer .social-connect .fa {
+  font-size: 36px;
+  margin: 0 20px;
 }
 .mfp-iframe-holder .mfp-content {
   max-width: 1280px !important;
@@ -227,6 +244,11 @@
   font-family: 'ProximaNovaSemibold';
   src: url('../fonts/ProximaNova-Semibold.eot');
   src: url('../fonts/ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova-Semibold.woff2') format('woff2'), url('../fonts/ProximaNova-Semibold.woff') format('woff'), url('../fonts/ProximaNova-Semibold.ttf') format('truetype'), url('../fonts/ProximaNova-Semibold.svg') format('svg');
+}
+@font-face {
+  font-family: 'ProximaNovaRegular';
+  src: url('../fonts/ProximaNova-Regular.eot');
+  src: url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova-Regular.woff2') format('woff2'), url('../fonts/ProximaNova-Regular.woff') format('woff'), url('../fonts/ProximaNova-Regular.ttf') format('truetype'), url('../fonts/ProximaNova-Regular.svg') format('svg');
 }
 @font-face {
   font-family: 'ProximaNovaLight';
