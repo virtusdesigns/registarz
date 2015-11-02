@@ -21,6 +21,7 @@
   </head>
   <body>
     <div class="container-fluid">
+		
 			<header id="header" class="row">
 				<h1>Life Happens Here.</h1>
 				<h2>We Make It Simple. You Make It Fun.</h2>
@@ -34,7 +35,28 @@
 				
 			</header>
 			
+			<nav class="navbar navbar-static-top">
+			  <div class="container">
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+			        <div class="top-bar"></div>
+			        <div class="middle-bar"></div>
+			        <div class="bottom-bar"></div>
+			      </button>
+			      <img class="mobile-logo" src="images/registarz-logo-white.svg" >
+			    </div>
+			  </div>
+			</nav>
+			
 			<section id="panel-1" class="panel row">
+				<div id="navbar" class="collapse navbar-collapse">
+				  <ul class="nav navbar-nav">
+				    <li class="active"><a href="http://registarz.com/account/login.php?">LOGIN</a></li>
+				    <li><a href="http://registarz.com/event/event-create.php?">CREATE EVENT</a></li>
+				    <li><a href="#contact">HOW IT WORKS</a></li>
+				    <li><a href="#contact">FAQS</a></li>
+				  </ul>
+				</div><!--/.nav-collapse -->
 				<div class="panel-content">
 					<h1>We madea complicated process easy</h1>
 					<a class="button btn-green popup-vimeo" href="http://vimeo.com/143666371">Play Video</a>
@@ -72,7 +94,7 @@
 			
 			<footer id="footer" class="row">
 				<div class="panel-content">
-					<p>Call Us Whenever 1-888-691-8313</p>
+					<p class="call-us">Call Us Whenever 1-888-691-8313</p>
 					<p><a data-toggle="modal" data-target=".privacy-policy-modal">Privacy Policy</a> | <a data-toggle="modal" data-target=".service-terms-modal">Terms of Service</a>
 					<div class="social-connect">
 						<p>Connect With Us</p>

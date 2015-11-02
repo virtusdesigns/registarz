@@ -8,6 +8,9 @@
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+.navbar {
+  display: none;
+}
 .header1-font {
   font-family: ProximaNovaSemibold, sans-serif;
   text-transform: uppercase;
@@ -103,6 +106,7 @@
   padding: 26.5% 0;
   margin-bottom: 0;
   position: relative;
+  border: none;
 }
 .panel .panel-content {
   position: absolute;
@@ -212,7 +216,11 @@
   text-transform: uppercase;
 }
 #footer p {
-  margin-bottom: 20px;
+  margin-bottom: 14px;
+}
+#footer p.call-us {
+  border-bottom: 1px dotted rgba(255, 255, 255, 0.2);
+  padding-bottom: 12px;
 }
 #footer a {
   color: #fff;
@@ -233,6 +241,248 @@
 }
 .mfp-iframe-scaler {
   padding-top: 40.25% !important;
+}
+@media all and (max-width: 1024px) {
+  .button {
+    width: 300px;
+    height: 58px;
+    line-height: 58px;
+    font-size: 22px;
+  }
+  .panel {
+    padding: 33.5% 0;
+  }
+  .panel h1 {
+    font-size: 50px;
+  }
+  .panel h3 {
+    font-size: 30px;
+  }
+  #panel-2 {
+    background-position: -94px 147%, 123% 127%;
+    background-size: 62% auto, 74% auto;
+  }
+  #panel-2 .panel-content {
+    top: 74px;
+  }
+  #panel-2 .panel-content h3 {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  #panel-3 {
+    background-position: 170% center;
+    background-size: auto 110%;
+  }
+  #panel-3 .panel-content h1 {
+    max-width: 430px;
+  }
+  #panel-4 {
+    background-position: -53% center;
+  }
+  #panel-4 .panel-content {
+    width: 370px;
+  }
+}
+@media all and (min-width: 768px) {
+  #navbar {
+    display: none !important;
+  }
+}
+@media all and (max-width: 768px) {
+  .navbar {
+    display: block;
+    background: #5dd923;
+    height: 60px;
+    width: auto;
+    margin: 0 -15px;
+    position: relative;
+  }
+  .navbar .mobile-logo {
+    float: right;
+    width: 242px;
+    margin: 6px 20px 0 0;
+  }
+  .navbar .navbar-toggle {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    z-index: 1010;
+    border: none;
+    position: absolute;
+    z-index: 1002;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    left: 20px;
+    padding: 0;
+    margin: 0;
+    vertical-align: middle;
+    line-height: 16px;
+    text-align: right;
+    cursor: pointer;
+    user-select: none;
+    color: #959595;
+    width: 32px;
+    height: 23px;
+  }
+  .navbar .navbar-toggle .top-bar,
+  .navbar .navbar-toggle .middle-bar,
+  .navbar .navbar-toggle .bottom-bar {
+    width: 32px;
+    height: 3px;
+    background-color: #ffffff;
+    -webkit-transition: -webkit-transform 0.1s 0s ease-in-out, top 0.1s 0.1s ease-in-out;
+    -moz-transition: -moz-transform 0.1s 0s ease-in-out, top 0.1s 0.1s ease-in-out;
+    -ms-transition: -ms-transform 0.1s 0s ease-in-out, top 0.1s 0.1s ease-in-out;
+    -o-transition: -o-transform 0.1s 0s ease-in-out, top 0.1s 0.1s ease-in-out;
+    transition: transform 0.1s 0s ease-in-out, top 0.1s 0.1s ease-in-out;
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    position: absolute;
+  }
+  .navbar .navbar-toggle .top-bar,
+  .navbar .navbar-toggle .bottom-bar {
+    -webkit-transition: top 0.1s 0.1s ease-in-out, -webkit-transform 0.1s 0.2s ease-in-out;
+    -moz-transition: top 0.1s 0.1s ease-in-out, -moz-transform 0.1s 0.2s ease-in-out;
+    -ms-transition: top 0.1s 0.1s ease-in-out, -ms-transform 0.1s 0.2s ease-in-out;
+    -o-transition: top 0.1s 0.1s ease-in-out, -o-transform 0.1s 0.2s ease-in-out;
+    transition: top 0.1s 0.1s ease-in-out, transform 0.1s 0.2s ease-in-out;
+  }
+  .navbar .navbar-toggle .top-bar {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: 10px;
+  }
+  .navbar .navbar-toggle .middle-bar {
+    opacity: 0;
+    -webkit-transition: opacity 0s .15s linear;
+    -moz-transition: opacity 0s .15s linear;
+    -ms-transition: opacity 0s .15s linear;
+    -o-transition: opacity 0s .15s linear;
+    transition: opacity 0s .15s linear;
+  }
+  .navbar .navbar-toggle .bottom-bar {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    top: 10px;
+  }
+  .navbar .navbar-toggle.collapsed .top-bar,
+  .navbar .navbar-toggle.collapsed .middle-bar,
+  .navbar .navbar-toggle.collapsed .bottom-bar {
+    top: 0;
+    right: 0;
+  }
+  .navbar .navbar-toggle.collapsed .top-bar,
+  .navbar .navbar-toggle.collapsed .bottom-bar {
+    -webkit-transition: -webkit-transform 0.1s 0s ease-in-out, top 0.1s 0.1s ease-in-out;
+    -moz-transition: -moz-transform 0.1s 0s ease-in-out, top 0.1s 0.1s ease-in-out;
+    -ms-transition: -ms-transform 0.1s 0s ease-in-out, top 0.1s 0.1s ease-in-out;
+    -o-transition: -o-transform 0.1s 0s ease-in-out, top 0.1s 0.1s ease-in-out;
+    transition: transform 0.1s 0s ease-in-out, top 0.1s 0.1s ease-in-out;
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+  }
+  .navbar .navbar-toggle.collapsed .top-bar {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  .navbar .navbar-toggle.collapsed .middle-bar {
+    -webkit-transition: opacity 0s .15s linear;
+    -moz-transition: opacity 0s .15s linear;
+    -ms-transition: opacity 0s .15s linear;
+    -o-transition: opacity 0s .15s linear;
+    transition: opacity 0s .15s linear;
+    opacity: 1;
+    top: 10px;
+  }
+  .navbar .navbar-toggle.collapsed .bottom-bar {
+    top: 20px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  #panel-1 .navbar-collapse.collapse.in {
+    height: 100% !important;
+    -webkit-transition: height 5s linear;
+    -moz-transition: height 0.25s linear;
+    -ms-transition: height 0.25s linear;
+    -o-transition: height 0.25s linear;
+    transition: height 0.25s linear;
+  }
+  #panel-1 .navbar-collapse.collapse {
+    position: absolute;
+    display: block !important;
+    top: 0;
+    left: 0;
+    height: 0 !important;
+    overflow: hidden;
+    -webkit-transition: height 0.25s linear;
+    -moz-transition: height 0.25s linear;
+    -ms-transition: height 0.25s linear;
+    -o-transition: height 0.25s linear;
+    transition: height 0.25s linear;
+    width: 100%;
+    z-index: 999;
+    background: rgba(0, 0, 0, 0.6);
+    border: none;
+  }
+  #panel-1 .navbar-collapse.collapse .navbar-nav {
+    background: #5dd923;
+    width: 400px;
+    position: absolute;
+    top: 0;
+    margin: 0;
+    left: 0;
+    height: 100%;
+    border-top: 1px solid #5ed127;
+  }
+  #panel-1 .navbar-collapse.collapse .navbar-nav li {
+    text-align: center;
+    display: block;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: ProximaNovaRegular, sans-serif;
+  }
+  #panel-1 .navbar-collapse.collapse .navbar-nav li a {
+    color: #ffffff;
+    padding: 30px 0;
+    line-height: 100%;
+  }
+  #panel-1 .navbar-collapse.collapse .navbar-nav li a:hover {
+    background-color: #5ed127;
+  }
+}
+@media all and (max-width: 640px) {
+  .button {
+    display: block;
+    margin: 0 auto !important;
+  }
+  .panel {
+    padding: 84% 0;
+  }
+  #panel-1 .navbar-nav {
+    width: 64% !important;
+  }
 }
 /*!
  *  Font Awesome 4.4.0 by @davegandy - http://fontawesome.io - @fontawesome
