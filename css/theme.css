@@ -585,6 +585,36 @@
     font-size: 30px;
   }
 }
+@media all and (max-width: 580px) {
+  .button {
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+  }
+  #header {
+    padding-top: 140px;
+    padding-bottom: 200px;
+  }
+  #header h1 {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  #header h2 {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .panel .panel-content h1 {
+    font-size: 28px;
+    width: auto !important;
+  }
+  .panel .panel-content h3 {
+    font-size: 18px;
+    width: auto !important;
+  }
+  #pre-footer h1 {
+    font-size: 28px;
+  }
+}
 /*!
  *  Font Awesome 4.4.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
