@@ -242,6 +242,11 @@
 	padding-top: 40.25% !important;
 }
 
+@media all and (max-width: 1600px) {
+	#panel-2 {
+		background-position: left 125%, right 130%;
+	}
+}
 
 @media all and (max-width: 1300px) {
 	.button {
@@ -310,7 +315,10 @@
 		.mobile-logo {
 			float: 	right;
 			width: 242px;
-			margin: 6px 20px 0 0;
+			transform: translate3d(-20px,17%,0);
+			-ms-transform: translate3d(-20px,17%,0);
+			-webkit-transform: translate3d(-20px,17%,0);
+			-moz-transform: translate3d(-20px,17%,0);
 		}
 		.navbar-header {
 			float: none;
@@ -593,17 +601,83 @@
 		}
 	}
 }
-
 @media all and (max-width: 580px) {
 	.button {
 	  height: 50px;
 	  line-height: 50px;
 	  font-size: 16px;
 	}
+	#header {
+		padding-top: 140px;
+		padding-bottom: 200px;
+		background-position: 78% center;
+		background-size: auto 100%;
+		h1 {
+			font-size: 34px;
+			margin-bottom: 30px;
+		}
+		h2 {
+			font-size: 20px;
+			margin-bottom: 20px;
+		}
+	}
+	.panel {
+		.panel-content {
+			top: 30px !important;
+			h1 {
+				font-size: 34px;
+				width: auto !important;
+				margin-bottom: 20px !important;
+				max-width: 90% !important;
+				margin: 0 auto;
+			}
+			h3 {
+				font-size: 20px;
+				width: auto !important;
+				max-width: 90% !important;
+				margin: 0 auto;
+			}
+		}	
+	}
+	#panel-1 {
+	  background-position: -77px 171px;
+	  background-size: auto 74%;
+	  .navbar-nav {
+	  	width: 74%;
+	  	li {
+	  		font-size: 20px;
+	  		a {
+	  			padding: 24px 0;
+	  		}
+	  	}
+	  }
+	}
+	#panel-3 {
+	  background-position: center 106px;
+	}
+	#panel-4 {
+	  background-position: center 166px;
+	  background-size: auto 72%;
+	}
+	
+	#pre-footer {
+		h1 {
+			font-size: 34px;
+		}
+		h3 {
+			font-size: 20px;
+		}
+	}
+}
+@media all and (max-width: 360px) {
+	
 	.navbar {
 		.mobile-logo {
 			width: 60%;
-			margin-top: 10px;
+			transform: translate3d(-20px,23%,0);
+			-ms-transform: translate3d(-20px,23%,0);
+			-webkit-transform: translate3d(-20px,23%,0);
+			-moz-transform: translate3d(-20px,23%,0);
 		}
 	}
 	#header {
