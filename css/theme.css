@@ -147,6 +147,9 @@
 #panel-1 .panel-content h1 {
   text-align: left;
 }
+#panel-1 .panel-content .button.btn-green:hover {
+  background: #f2f2f2;
+}
 #panel-2 {
   background-image: url('../images/registarz-panel-3-phone.png'), url('../images/registarz-panel-3-tablet-2.png');
   background-color: #f2f2f2;
@@ -205,6 +208,9 @@
   color: #636363;
   margin-bottom: 50px;
 }
+#pre-footer .button.btn-green:hover {
+  background: #f2f2f2;
+}
 #footer {
   padding: 4.2% 0 6.7%;
   background: url('../images/footer-bg.jpg') no-repeat center top;
@@ -231,6 +237,10 @@
 }
 #footer .social-connect {
   margin-top: 40px;
+}
+#footer .social-connect a {
+  line-height: 36px;
+  display: inline-block;
 }
 #footer .social-connect .fa {
   font-size: 36px;
