@@ -282,6 +282,11 @@
 	.panel h3 {
 		font-size: 30px;
 	}
+	#panel-1 {
+		.panel-content {
+			width: 353px;
+		}
+	}
 	#panel-2 {
 		background-position: -94px 147%, 123% 127%;
 		background-size: 62% auto, 74% auto;
@@ -315,6 +320,25 @@
 	}
 }
 @media all and (max-width: 768px) {
+	.button {
+		width: 270px;
+	}
+	#header {
+		h1 {
+			font-size: 62px;
+		}
+		h2 {
+			font-size: 33px;
+		}
+		.header-ctas {
+			.button.btn-green {
+				margin-left: 30px;
+			}
+			.button.btn-white {
+				margin-right: 30px;
+			}
+		}
+	}
 	.navbar {
 		display: block;
 		background: @green;
@@ -448,6 +472,45 @@
 					transform: rotate(0deg);
 				}
 			}
+		}
+	}
+	.panel {
+		h1 {
+			font-size: 36px !important;
+		}
+		h3 {
+			font-size: 24px !important;
+		}
+	}
+	#panel-1 {
+		.panel-content {
+			width: 274px;
+		}
+	}
+	#panel-2 {
+		.panel-content {
+	    top: 50px;
+	   }
+	}
+	#panel-3 {
+		.panel-content {
+			width:308px;
+			h3 {
+				width: auto;
+			}
+		}
+	}
+	#panel-4 {
+		.panel-content {
+			width: 282px;
+		}
+	}
+	#pre-footer {
+		h1 {
+			font-size: 36px !important;
+		}
+		h3 {
+			font-size: 24px !important;
 		}
 	}
 	#panel-1 {

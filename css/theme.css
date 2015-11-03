@@ -281,6 +281,9 @@
   .panel h3 {
     font-size: 30px;
   }
+  #panel-1 .panel-content {
+    width: 353px;
+  }
   #panel-2 {
     background-position: -94px 147%, 123% 127%;
     background-size: 62% auto, 74% auto;
@@ -312,6 +315,21 @@
   }
 }
 @media all and (max-width: 768px) {
+  .button {
+    width: 270px;
+  }
+  #header h1 {
+    font-size: 62px;
+  }
+  #header h2 {
+    font-size: 33px;
+  }
+  #header .header-ctas .button.btn-green {
+    margin-left: 30px;
+  }
+  #header .header-ctas .button.btn-white {
+    margin-right: 30px;
+  }
   .navbar {
     display: block;
     background: #5dd923;
@@ -450,6 +468,33 @@
     -ms-transform: rotate(0deg);
     -o-transform: rotate(0deg);
     transform: rotate(0deg);
+  }
+  .panel h1 {
+    font-size: 36px !important;
+  }
+  .panel h3 {
+    font-size: 24px !important;
+  }
+  #panel-1 .panel-content {
+    width: 274px;
+  }
+  #panel-2 .panel-content {
+    top: 50px;
+  }
+  #panel-3 .panel-content {
+    width: 308px;
+  }
+  #panel-3 .panel-content h3 {
+    width: auto;
+  }
+  #panel-4 .panel-content {
+    width: 282px;
+  }
+  #pre-footer h1 {
+    font-size: 36px !important;
+  }
+  #pre-footer h3 {
+    font-size: 24px !important;
   }
   #panel-1 .navbar-collapse.collapse.in {
     height: 100% !important;
