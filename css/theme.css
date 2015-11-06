@@ -14,13 +14,13 @@
 .header1-font {
   font-family: ProximaNovaSemibold, sans-serif;
   text-transform: uppercase;
-  font-size: 71px;
+  font-size: 4.5vw;
   color: #ffffff;
 }
 .section1-font {
   font-family: ProximaNovaLight, sans-serif;
   text-transform: uppercase;
-  font-size: 71px;
+  font-size: 4.6vw;
   color: #636363;
 }
 .section2-font {
@@ -36,12 +36,12 @@
 }
 .button {
   height: 92px;
-  width: 479px;
+  width: 400px;
   display: inline-block;
   text-align: center;
   font-family: ProximaNovaSemibold, sans-serif;
   text-transform: uppercase;
-  font-size: 36px;
+  font-size: 2vw;
   line-height: 92px;
   transition: all 0.2s ease-in-out;
 }
@@ -74,7 +74,7 @@
 #header h1 {
   font-family: ProximaNovaSemibold, sans-serif;
   text-transform: uppercase;
-  font-size: 71px;
+  font-size: 4.5vw;
   color: #ffffff;
   text-align: center;
   margin: 0;
@@ -82,7 +82,7 @@
 #header h2 {
   font-family: ProximaNovaSemibold, sans-serif;
   text-transform: uppercase;
-  font-size: 36px;
+  font-size: 2.35vw;
   color: #ffffff;
   text-align: center;
   margin: 0;
@@ -97,10 +97,12 @@
   text-align: center;
 }
 #header .header-ctas .button.btn-white {
-  margin-right: 60px;
+  margin-right: 3%;
+  width: 26%;
 }
 #header .header-ctas .button.btn-green {
-  margin-left: 60px;
+  margin-left: 3%;
+  width: 26%;
 }
 .panel {
   padding: 26.5% 0;
@@ -121,7 +123,7 @@
 .panel h1 {
   font-family: ProximaNovaLight, sans-serif;
   text-transform: uppercase;
-  font-size: 71px;
+  font-size: 4.6vw;
   color: #636363;
 }
 .panel h2 {
@@ -199,7 +201,7 @@
 #pre-footer h1 {
   font-family: ProximaNovaLight, sans-serif;
   text-transform: uppercase;
-  font-size: 71px;
+  font-size: 4.6vw;
   color: #636363;
 }
 #pre-footer h3 {
@@ -259,7 +261,6 @@
 }
 @media all and (max-width: 1300px) {
   .button {
-    width: 390px;
     height: 90px;
     line-height: 90px;
     font-size: 28px;
@@ -267,7 +268,6 @@
 }
 @media all and (max-width: 1024px) {
   .button {
-    width: 300px;
     height: 58px;
     line-height: 58px;
     font-size: 22px;
@@ -315,9 +315,6 @@
   }
 }
 @media all and (max-width: 768px) {
-  .button {
-    width: 270px;
-  }
   #header h1 {
     font-size: 62px;
   }
@@ -661,11 +658,11 @@
     background-size: auto 100%;
   }
   #header h1 {
-    font-size: 34px;
+    font-size: 8.6vw;
     margin-bottom: 30px;
   }
   #header h2 {
-    font-size: 20px;
+    font-size: 4.5vw;
     margin-bottom: 20px;
   }
   .panel .panel-content {
