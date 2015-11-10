@@ -17,35 +17,42 @@
 	font-family: ProximaNovaSemibold, sans-serif;
 	text-transform: uppercase;
 	font-size: 71px;
+	font-size: 3.75vw;
 	color: @headerColor;
 }
 .section1-font {
 	font-family: ProximaNovaLight, sans-serif;
 	text-transform: uppercase;
 	font-size: 71px;
+	font-size: 3.7vw;
 	color: @sectionText;
 }
 .section2-font {
 	font-family: ProximaNovaLight, sans-serif;
 	text-transform: uppercase;
 	font-size: 48px;
+	font-size: 3vw;
 	color: @sectionText;
 }
 .section3-font {
 	font-family: ProximaNovaLight, sans-serif;
 	font-size: 45px;
+	font-size: 2.35vw;
 	color: @sectionText;
 }
 
 .button {
-	height: 92px;
+	/*height: 92px;*/
 	width: 479px;
+	width: 25.75%;
+	padding: 1.15% 0px;
 	display: inline-block;
 	text-align: center;
 	font-family: ProximaNovaSemibold, sans-serif;
 	text-transform: uppercase;
-	font-size: 36px;
-	line-height: 92px;
+	/*font-size: 36px;*/
+	font-size: 1.9vw;
+	/*line-height: 92px;*/
 	transition: all .2s ease-in-out;
 	&:hover {
 		text-decoration: none;
@@ -83,7 +90,8 @@
 	h2 {
 		font-family: ProximaNovaSemibold, sans-serif;
 		text-transform: uppercase;
-		font-size: 36px;
+		font-size: 37px;
+		font-size: 1.95vw;
 		color: @headerColor;
 		text-align: center;
 		margin: 0;
@@ -98,10 +106,10 @@
 		text-align: center;
 		.button {
 			&.btn-white {
-				margin-right: 60px;
+				margin-right: 5%;
 			}
 			&.btn-green {
-				margin-left: 60px;
+				margin-left: 5%;
 			}	
 		}
 	}
@@ -133,12 +141,17 @@
 	background: url('../images/registarz-panel-2-img.jpg') no-repeat center center;
 	background-size: 100% 100%;
 	.panel-content {
-		width: 504px;
+		width: 27%;
 		right: 5%;
 		top: 25%;
 		h1 {
 			text-align: left;
 		}
+		.button.btn-green {
+			width: 93%;
+			padding: 4% 0;
+		}
+		
 		.button.btn-green:hover {
 			background: @graybg;
 		}
@@ -169,14 +182,14 @@
 	background: url('../images/registarz-panel-simplicity-img.png') no-repeat right center;
 	background-size: auto 100%;
 	.panel-content {
-		width: 608px;
+		width: 32%;
 		left: 5%;
 		top: 25%;
 		h1 {
 			text-align: left;
 		}
 		h3 {
-			width: 437px;
+			width: 73%;
 		}
 	}
 }
@@ -184,7 +197,7 @@
 	background: @graybg url('../images/registarz-panel-4-imac.png') no-repeat  10% center;
 	background-size: auto 100%;
 	.panel-content {
-		width: 506px;
+		width: 26.6%;
 		right: 5%;
 		top: 25%;
 		h1 {
@@ -259,87 +272,21 @@
 }
 
 @media all and (max-width: 1300px) {
-	.button {
-		width: 390px;
-		height: 90px;
-		line-height: 90px;
-		font-size: 28px;
-	}
+
 }
-@media all and (max-width: 1024px) {	
-	.button {
-		width: 300px;
-		height: 58px;
-		line-height: 58px;
-		font-size: 22px;
-	}
-	.panel {
-		padding: 33.5% 0;
-	}
-	.panel h1 {
-		font-size: 50px;
-	}
-	.panel h3 {
-		font-size: 30px;
-	}
-	#panel-1 {
-		.panel-content {
-			width: 353px;
-		}
-	}
-	#panel-2 {
-		background-position: -94px 147%, 123% 127%;
-		background-size: 62% auto, 74% auto;
-		.panel-content {
-			top: 74px;
-			h3 {
-				max-width: 500px;
-				margin: 0 auto;
-			}
-		}
-	}
-	#panel-3 {
-		background-position: 170% center;
-		background-size: auto 110%;
-		.panel-content {
-			h1 {
-				max-width: 430px;
-			}
-		}
-	}
-	#panel-4 {
-		background-position: -53% center;
-		.panel-content {
-			width: 370px;
-		}
-	}
-}
-@media all and (min-width: 769px) {
+
+@media all and (min-width: 1025px) {
 	#navbar {
 		display: none !important;
 	}
 }
-@media all and (max-width: 768px) {
-	.button {
-		width: 270px;
-	}
-	#header {
-		h1 {
-			font-size: 62px;
-		}
-		h2 {
-			font-size: 33px;
-		}
-		.header-ctas {
-			.button.btn-green {
-				margin-left: 30px;
-			}
-			.button.btn-white {
-				margin-right: 30px;
-			}
-		}
-	}
+
+@media all and (max-width: 1024px) {	
+	
 	.navbar {
+		.container {
+			width: auto !important;
+		}
 		display: block;
 		background: @green;
 		height: 60px;
@@ -474,12 +421,156 @@
 			}
 		}
 	}
+	#panel-1 {
+		.navbar-collapse.collapse.in {
+			height: 100% !important;
+			-webkit-transition: height 5s linear;
+			-moz-transition: height 0.25s linear;
+			-ms-transition: height 0.25s linear;
+			-o-transition: height 0.25s linear;
+			transition: height 0.25s linear;
+		}
+		.navbar-collapse.collapse {
+			position: absolute;
+			display: block !important;
+			top: 0;
+			left: 0;
+			height: 0 !important;
+			overflow: hidden !important;
+			-webkit-transition: height 0.25s linear;
+			-moz-transition: height 0.25s linear;
+			-ms-transition: height 0.25s linear;
+			-o-transition: height 0.25s linear;
+			transition: height 0.25s linear;
+			width: 100%;
+			z-index: 999;
+			background: rgba(0,0,0,.6);
+			border: none;
+			.navbar-nav {
+				background: #5dd923;
+				width: 400px;
+				position: absolute;
+				top: 0;
+				margin: 0;
+				left: 0;
+				height: 100%;
+				border-top: 1px solid #5ed127;
+				li {
+					float: none;
+					text-align: center;
+					display: block;
+					text-transform: uppercase;
+					font-size: 30px;
+					font-family: ProximaNovaRegular, sans-serif;
+					a {
+						color: #ffffff;
+						padding: 30px 0;
+						line-height: 100%;
+						&:hover {
+							background-color: #5ed127;
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	
+	#header {
+		.header-ctas {
+			.button.btn-white {
+				margin-right: 3%;
+			}
+			.button.btn-green {
+				margin-left: 3%;
+			}
+		}
+		padding: 60px 0 125px 0;
+		.logo {
+			width: 82%;
+			margin: 40px auto 100px;
+		}
+		h1 {
+			font-size: 4.75vw;
+		}
+		h2 {
+			font-size: 2.5vw;
+		}
+	}
+	.panel {
+		padding: 33.5% 0;
+	}
+	.panel h1 {
+		font-size: 5vw;
+	}
+	.panel h3 {
+		font-size: 3vw;
+		line-height: 130%;
+	}
+	#panel-1 {
+		.panel-content {
+			width: 30%;
+			h1 {
+				font-size: 4vw;
+			}
+		}
+	}
+	#panel-2 {
+		background-position: -94px 147%, 123% 127%;
+		background-size: 62% auto, 74% auto;
+		.panel-content {
+			top: 74px;
+			h3 {
+				width: 50%;
+				margin: 0 auto;
+			}
+		}
+	}
+	#panel-3 {
+		background-position: 170% center;
+		background-size: auto 110%;
+		.panel-content {
+			left: 8%;
+			width: 43%;
+			h3 {
+				width: 68%;
+			}
+		}
+	}
+	#panel-4 {
+		background-position: -53% center;
+		.panel-content {
+			width: 37%;
+		}
+	}
+}
+
+@media all and (max-width: 768px) {
+	.button {
+		/*width: 270px;*/
+	}
+	#header {
+		h1 {
+			font-size: 62px;
+		}
+		h2 {
+			font-size: 33px;
+		}
+		.header-ctas {
+			.button.btn-green {
+				margin-left: 30px;
+			}
+			.button.btn-white {
+				margin-right: 30px;
+			}
+		}
+	}
 	.panel {
 		h1 {
-			font-size: 36px !important;
+			font-size: 4vw !important;
 		}
 		h3 {
-			font-size: 24px !important;
+			font-size: 3.25 !important;
 		}
 	}
 	#panel-1 {
@@ -513,78 +604,25 @@
 			font-size: 24px !important;
 		}
 	}
-	#panel-1 {
-		.navbar-collapse.collapse.in {
-			height: 100% !important;
-			-webkit-transition: height 5s linear;
-			-moz-transition: height 0.25s linear;
-			-ms-transition: height 0.25s linear;
-			-o-transition: height 0.25s linear;
-			transition: height 0.25s linear;
-		}
-		.navbar-collapse.collapse {
-			position: absolute;
-			display: block !important;
-			top: 0;
-			left: 0;
-			height: 0 !important;
-			overflow: hidden;
-			-webkit-transition: height 0.25s linear;
-			-moz-transition: height 0.25s linear;
-			-ms-transition: height 0.25s linear;
-			-o-transition: height 0.25s linear;
-			transition: height 0.25s linear;
-			width: 100%;
-			z-index: 999;
-			background: rgba(0,0,0,.6);
-			border: none;
-			.navbar-nav {
-				background: #5dd923;
-				width: 400px;
-				position: absolute;
-				top: 0;
-				margin: 0;
-				left: 0;
-				height: 100%;
-				border-top: 1px solid #5ed127;
-				li {
-					text-align: center;
-					display: block;
-					text-transform: uppercase;
-					font-size: 30px;
-					font-family: ProximaNovaRegular, sans-serif;
-					a {
-						color: #ffffff;
-						padding: 30px 0;
-						line-height: 100%;
-						&:hover {
-							background-color: #5ed127;
-						}
-					}
-				}
-			}
-		}
-	}
 }
 
 @media all and (max-width: 640px) {
 	.button {
 		display: block;
 		margin: 0 auto 20px !important;
-		width: 83%;
-		height: 100px;
-		line-height: 100px;
+		width: 83%  !important;
 		font-size: 40px;
+		font-size: 6.5vw;
 	}
 	.panel {
 		padding: 84% 0;
 		.panel-content {
 			h1 {
-				font-size: 65px;
+				font-size: 10vw !important;
 				text-align: center !important;
 			}
 			h3 {
-				font-size: 34px;
+				font-size: 5.5vw !important;
 				text-align: center !important;
 			}
 		}
@@ -602,11 +640,11 @@
 			width: 83%;
 		}
 		h1 {
-			font-size: 55px;
+			font-size: 8.7vw;
 			margin-bottom: 80px;
 		}
 		h2 {
-			font-size: 28px;
+			font-size: 4.5vw;
 			margin-bottom: 40px;
 		}
 	}
@@ -624,11 +662,19 @@
 			h1 {
 				margin-bottom: 90px;
 			}
+			.button.btn-green {
+				padding: 3% 0;
+			}
 		}
 	}
 	#panel-2 {
-		background-position: -94px 128%, -24% bottom;
+		background-position: -94px 121%, -24% 87%;
 		background-size: 100% auto, 135% auto;
+		.panel-content {
+			h3 {
+				width: 70%;
+			}
+		}
 	}
 	#panel-3 {
 		background-position: 59% 241px;
@@ -638,11 +684,12 @@
 			left: 0;
 			top: 60px;
 			h1 {
-				max-width: 88%;
-				margin: 0 auto;
+				max-width: 86%;
+				margin: 0 auto 20px;
 			}
 			h3 {
 				margin: 0 auto;
+				width: 72%;
 			}
 		}
 	}
@@ -655,30 +702,28 @@
 			top: 60px;
 			h1 {
 				max-width: 78%;
-				margin: 0 auto;
+				margin: 0 auto 20px;
 			}
 			h3 {
 				margin: 0 auto;
-				max-width: 56%;
+				max-width: 58%;
 			}
 		}
 	}
 	#pre-footer {
 		h1 {
-			font-size: 65px;
-			max-width: 91%;
+			font-size: 10.5vw !important;
+			max-width: 94%;
 			margin: 0 auto;
 		}
 		h3 {
-			font-size: 30px;
+			font-size: 4.75vw !important;
 		}
 	}
 }
 @media all and (max-width: 580px) {
 	.button {
-	  height: 50px;
-	  line-height: 50px;
-	  font-size: 16px;
+
 	}
 	#header {
 		padding-top: 140px;
@@ -686,11 +731,9 @@
 		background-position: 78% center;
 		background-size: auto 100%;
 		h1 {
-			font-size: 34px;
 			margin-bottom: 30px;
 		}
 		h2 {
-			font-size: 20px;
 			margin-bottom: 20px;
 		}
 	}
@@ -698,16 +741,12 @@
 		.panel-content {
 			top: 30px !important;
 			h1 {
-				font-size: 34px;
 				width: auto !important;
 				margin-bottom: 20px !important;
-				max-width: 90% !important;
 				margin: 0 auto;
 			}
 			h3 {
-				font-size: 20px;
 				width: auto !important;
-				max-width: 90% !important;
 				margin: 0 auto;
 			}
 		}	
@@ -726,19 +765,17 @@
 	  }
 	}
 	#panel-3 {
-	  background-position: center 106px;
+	  background-position: center 146px;
 	}
 	#panel-4 {
-	  background-position: center 166px;
+	  background-position: center 211px;
 	  background-size: auto 72%;
 	}
 	
 	#pre-footer {
 		h1 {
-			font-size: 34px;
 		}
 		h3 {
-			font-size: 20px;
 		}
 	}
 }
