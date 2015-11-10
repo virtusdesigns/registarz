@@ -783,11 +783,17 @@
     padding: 24px 0;
   }
   #panel-3 {
-    background-position: center 106px;
+    background-position: center 124px;
+  }
+  #panel-3 h3 {
+    width: 65% !important;
   }
   #panel-4 {
-    background-position: center 166px;
+    background-position: center 170px;
     background-size: auto 72%;
+  }
+  #panel-4 h3 {
+    width: 90% !important;
   }
   #pre-footer h1 {
     font-size: 28px;
