@@ -743,6 +743,9 @@
     -webkit-transform: translate3d(-20px, 23%, 0);
     -moz-transform: translate3d(-20px, 23%, 0);
   }
+  .button {
+    padding: 3% 0;
+  }
   #header {
     padding-top: 140px;
     padding-bottom: 200px;
@@ -793,7 +796,7 @@
     background-size: auto 72%;
   }
   #panel-4 h3 {
-    width: 90% !important;
+    width: 67% !important;
   }
   #pre-footer h1 {
     font-size: 28px;
