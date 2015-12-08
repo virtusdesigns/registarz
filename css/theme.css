@@ -489,6 +489,9 @@
   .navbar-collapse.collapse .navbar-nav li a:hover {
     background-color: #5ed127;
   }
+  .panel .container {
+    width: 820px;
+  }
 }
 @media all and (max-width: 768px) {
   .button {
