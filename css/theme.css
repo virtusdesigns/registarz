@@ -521,9 +521,6 @@
   #panel-1 .panel-content {
     width: 304px;
   }
-  #panel-2 .panel-content {
-    top: 50px;
-  }
   #panel-3 .panel-content {
     width: 360px;
   }
@@ -541,22 +538,10 @@
   }
 }
 @media all and (max-width: 640px) {
-  .button {
-    display: block;
-    margin: 0 auto 20px !important;
-    width: 83%  !important;
-    font-size: 40px;
-    font-size: 6.5vw;
-  }
-  .panel {
-    padding: 84% 0;
-  }
   .panel .panel-content h1 {
-    font-size: 10vw !important;
     text-align: center !important;
   }
   .panel .panel-content h3 {
-    font-size: 5.5vw !important;
     text-align: center !important;
   }
   #header {
@@ -568,62 +553,18 @@
     position: absolute;
     top: 60px;
     margin: 0;
-    left: 8.5%;
-    width: 83%;
-  }
-  #header h1 {
-    font-size: 8.7vw;
-    margin-bottom: 80px;
-  }
-  #header h2 {
-    font-size: 4.5vw;
-    margin-bottom: 40px;
-  }
-  #panel-1 {
-    background-position: -677px 20px;
-    background-size: auto 115%;
-  }
-  #panel-1 .navbar-nav {
-    width: 64% !important;
   }
   #panel-1 .panel-content {
     top: 60px;
     right: 0;
     width: 100%;
   }
-  #panel-1 .panel-content h1 {
-    margin-bottom: 90px;
-  }
-  #panel-1 .panel-content .button.btn-green {
-    padding: 3% 0;
-  }
-  #panel-2 {
-    background-position: -94px 121%, -24% 87%;
-    background-size: 100% auto, 135% auto;
-  }
-  #panel-2 .panel-content h3 {
-    width: 70%;
-  }
-  #panel-3 {
-    background-position: 59% 241px;
-    background-size: auto 91%;
-  }
   #panel-3 .panel-content {
     width: 100%;
     left: 0;
-    top: 60px;
-  }
-  #panel-3 .panel-content h1 {
-    max-width: 86%;
-    margin: 0 auto 20px;
   }
   #panel-3 .panel-content h3 {
     margin: 0 auto;
-    width: 72%;
-  }
-  #panel-4 {
-    background-position: center 355px;
-    background-size: auto 69%;
   }
   #panel-4 .panel-content {
     width: 100%;
@@ -672,10 +613,6 @@
     width: auto !important;
     margin: 0 auto;
   }
-  #panel-1 {
-    background-position: -77px 171px;
-    background-size: auto 74%;
-  }
   #panel-1 .navbar-nav {
     width: 74%;
   }
@@ -684,13 +621,6 @@
   }
   #panel-1 .navbar-nav li a {
     padding: 24px 0;
-  }
-  #panel-3 {
-    background-position: center 146px;
-  }
-  #panel-4 {
-    background-position: center 211px;
-    background-size: auto 72%;
   }
 }
 @media all and (max-width: 360px) {
@@ -730,10 +660,6 @@
     width: 90% !important;
     margin: 0 auto;
   }
-  #panel-1 {
-    background-position: -77px 171px;
-    background-size: auto 74%;
-  }
   #panel-1 .navbar-nav {
     width: 74%;
   }
@@ -743,15 +669,8 @@
   #panel-1 .navbar-nav li a {
     padding: 24px 0;
   }
-  #panel-3 {
-    background-position: center 124px;
-  }
   #panel-3 h3 {
     width: 65% !important;
-  }
-  #panel-4 {
-    background-position: center 170px;
-    background-size: auto 72%;
   }
   #panel-4 h3 {
     width: 67% !important;
