@@ -16,43 +16,38 @@
 .header1-font {
 	font-family: ProximaNovaSemibold, sans-serif;
 	text-transform: uppercase;
-	font-size: 71px;
-	font-size: 3.75vw;
+	/*font-size: 3.75vw;*/
+	font-size: 48px;
 	color: @headerColor;
 }
 .section1-font {
 	font-family: ProximaNovaLight, sans-serif;
 	text-transform: uppercase;
 	font-size: 71px;
-	font-size: 3.7vw;
 	color: @sectionText;
 }
 .section2-font {
 	font-family: ProximaNovaLight, sans-serif;
 	text-transform: uppercase;
 	font-size: 48px;
-	font-size: 3vw;
 	color: @sectionText;
 }
 .section3-font {
 	font-family: ProximaNovaLight, sans-serif;
-	font-size: 45px;
-	font-size: 2.35vw;
+	font-size: 24px;
 	color: @sectionText;
 }
 
 .button {
-	/*height: 92px;*/
-	width: 479px;
-	width: 25.75%;
-	padding: 1.15% 0px;
+	height: 50px;
+	width: 180px;
+	padding: 0px;
 	display: inline-block;
 	text-align: center;
 	font-family: ProximaNovaSemibold, sans-serif;
 	text-transform: uppercase;
-	/*font-size: 36px;*/
-	font-size: 1.9vw;
-	/*line-height: 92px;*/
+	font-size: 14px;
+	line-height: 50px;
 	transition: all .2s ease-in-out;
 	&:hover {
 		text-decoration: none;
@@ -85,20 +80,20 @@
 	h1 {
 		.header1-font;
 		text-align: center;
-		margin: 0;
+		margin: 0 0 14px 0;
 	}
 	h2 {
 		font-family: ProximaNovaSemibold, sans-serif;
 		text-transform: uppercase;
-		font-size: 37px;
-		font-size: 1.95vw;
+		font-size: 28px;
+		/*font-size: 1.95vw;*/
 		color: @headerColor;
 		text-align: center;
 		margin: 0;
 	}
 	.logo {
 		display: block;
-		width: 90%;
+		width: 100%;
 		margin: 60px auto 140px;
 	}
 	.header-ctas {
@@ -106,21 +101,25 @@
 		text-align: center;
 		.button {
 			&.btn-white {
-				margin-right: 5%;
+				margin-right: 50px;
 			}
 			&.btn-green {
-				margin-left: 5%;
+				margin-left: 50px;
 			}	
 		}
 	}
 }
 .panel {
-	padding: 26.5% 0;
+	/*padding: 26.5% 0;*/
+	height: 700px;
 	margin-bottom: 0;
 	position: relative;
 	border: none;
+	.container {
+		position: relative;
+	}
 	.panel-content {
-		position: absolute;
+		position: relative;
 	}
 	h1, h2, h3, p {
 		font-family: ProximaNovaLight, sans-serif;
@@ -128,6 +127,7 @@
 	}
 	h1 {
 		.section1-font;
+		font-size: 48px;
 	}
 	h2 {
 		.section2-font;
@@ -135,21 +135,23 @@
 	}
 	h3 {
 		.section3-font;
+		font-size: 24px;
 	}
 }
 #panel-1 {
-	background: url('../images/registarz-panel-2-img.jpg') no-repeat center center;
-	background-size: 100% 100%;
+	background: #fbfbfb url('../images/panel-1-bg.jpg') no-repeat center center;
+	background-size: auto 100%;
 	.panel-content {
-		width: 27%;
-		right: 5%;
-		top: 25%;
+		width: 338px;
+		float: right;
+		top: 140px;
 		h1 {
 			text-align: left;
 		}
+		h3 {
+			font-size: 36px;
+		}
 		.button.btn-green {
-			width: 93%;
-			padding: 4% 0;
 		}
 		
 		.button.btn-green:hover {
@@ -160,48 +162,60 @@
 #panel-2 {
   .panel-content {
   	top: 100px;
-  	left: 0;
   	width: 100%;
   	text-align: center;
+  	h3 {
+  		max-width: 406px;
+  		margin: 0 auto;
+  	}
   }
-  background-image: url('../images/registarz-panel-3-phone.png'),
-                    url('../images/registarz-panel-3-tablet-2.png');
-
-  background-color: @graybg;
-  
-  background-repeat: no-repeat,
-                     no-repeat;
-
-  background-position: left bottom,
-                       right bottom;
-  
-  background-size: 49% auto,
-                   57% auto;
+  background: #f2f2f2 url('../images/panel-2-bg.jpg') no-repeat;
+  background-position: center center;
+  background-size: auto 100%;
 }
 #panel-3 {
-	background: url('../images/registarz-panel-simplicity-img.png') no-repeat right center;
+	background: url('../images/panel-3-registration.jpg') no-repeat;
+	background-position: center center;
 	background-size: auto 100%;
+	.container {
+		top: 50%;
+		transform: translateY(-50%);
+		-moz-transform: translateY(-50%);
+		-webkit-transform: translateY(-50%);
+		-o-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+	}
 	.panel-content {
-		width: 32%;
-		left: 5%;
-		top: 25%;
+		width: 413px;
+		left:0;
 		h1 {
 			text-align: left;
 		}
 		h3 {
-			width: 73%;
+			width: 239px;
 		}
 	}
 }
 #panel-4 {
-	background: @graybg url('../images/registarz-panel-4-imac.png') no-repeat  10% center;
+	background: @graybg url('../images/panel-4-bg.jpg') no-repeat  center center;
 	background-size: auto 100%;
+	.container {
+		top: 50%;
+		transform: translateY(-50%);
+		-moz-transform: translateY(-50%);
+		-webkit-transform: translateY(-50%);
+		-o-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+	}
 	.panel-content {
-		width: 26.6%;
-		right: 5%;
-		top: 25%;
+		width: 340px;
+		right: 0;
+		float: right;
 		h1 {
 			text-align: left;
+		}
+		h3 {
+			width: 293px;
 		}
 	}
 }
@@ -211,6 +225,7 @@
 	text-align: center;
 	h1 {
 		.section1-font;
+		font-size: 48px;
 	}
 	h3 {
 		.section3-font;
@@ -266,9 +281,7 @@
 }
 
 @media all and (max-width: 1600px) {
-	#panel-2 {
-		background-position: left 125%, right 130%;
-	}
+
 }
 
 @media all and (max-width: 1300px) {

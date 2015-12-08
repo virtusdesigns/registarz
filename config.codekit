@@ -40,6 +40,61 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/panel-1-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 116427,
+		"inputAbbreviatedPath": "\/images\/panel-1-bg.jpg",
+		"outputAbbreviatedPath": "\/images\/panel-1-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/panel-2-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 93102,
+		"inputAbbreviatedPath": "\/images\/panel-2-bg.jpg",
+		"outputAbbreviatedPath": "\/images\/panel-2-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/panel-3-registration.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70929,
+		"inputAbbreviatedPath": "\/images\/panel-3-registration.jpg",
+		"outputAbbreviatedPath": "\/images\/panel-3-registration.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/panel-3-registration.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 122540,
+		"inputAbbreviatedPath": "\/images\/panel-3-registration.png",
+		"outputAbbreviatedPath": "\/images\/panel-3-registration.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/panel-4-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37717,
+		"inputAbbreviatedPath": "\/images\/panel-4-bg.jpg",
+		"outputAbbreviatedPath": "\/images\/panel-4-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/registarz-header-img.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -80,6 +135,17 @@
 		"initialSize": 164385,
 		"inputAbbreviatedPath": "\/images\/registarz-panel-2-img.jpg",
 		"outputAbbreviatedPath": "\/images\/registarz-panel-2-img.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/registarz-panel-3-bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 173218,
+		"inputAbbreviatedPath": "\/images\/registarz-panel-3-bg.png",
+		"outputAbbreviatedPath": "\/images\/registarz-panel-3-bg.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
