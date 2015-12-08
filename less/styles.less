@@ -141,10 +141,17 @@
 #panel-1 {
 	background: #fbfbfb url('../images/panel-1-bg.jpg') no-repeat center center;
 	background-size: auto 100%;
+	.container {
+		top: 50%;
+		transform: translateY(-50%);
+		-moz-transform: translateY(-50%);
+		-webkit-transform: translateY(-50%);
+		-o-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+	}
 	.panel-content {
 		width: 338px;
 		float: right;
-		top: 140px;
 		h1 {
 			text-align: left;
 		}
@@ -297,15 +304,15 @@
 @media all and (max-width: 1024px) {	
 	
 	.navbar {
-		.container {
-			width: auto !important;
-		}
+		position: fixed;
+		width: 100%;
 		display: block;
 		background: @green;
 		height: 60px;
-		width: auto;
 		margin: 0 -15px;
-		position: relative;
+		.container {
+			width: auto !important;
+		}
 		.mobile-logo {
 			float: 	right;
 			width: 242px;
@@ -434,7 +441,6 @@
 			}
 		}
 	}
-	#panel-1 {
 		.navbar-collapse.collapse.in {
 			height: 100% !important;
 			-webkit-transition: height 5s linear;
@@ -446,7 +452,7 @@
 		.navbar-collapse.collapse {
 			position: absolute;
 			display: block !important;
-			top: 0;
+			top: 60px;
 			left: 0;
 			height: 0 !important;
 			overflow: hidden !important;
@@ -485,7 +491,6 @@
 					}
 				}
 			}
-		}
 	}
 	
 
