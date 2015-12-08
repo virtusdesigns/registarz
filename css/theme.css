@@ -509,11 +509,8 @@
   #header .header-ctas .button.btn-white {
     margin-right: 30px;
   }
-  .panel h1 {
-    font-size: 4vw !important;
-  }
-  .panel h3 {
-    font-size: 3.25 !important;
+  .panel .container {
+    width: 750px;
   }
   #panel-1 .panel-content {
     width: 274px;
