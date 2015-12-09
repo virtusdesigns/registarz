@@ -756,9 +756,6 @@
     -webkit-transform: translate3d(-20px, 23%, 0);
     -moz-transform: translate3d(-20px, 23%, 0);
   }
-  .button {
-    padding: 3% 0;
-  }
   #header {
     padding-top: 140px;
     padding-bottom: 200px;
@@ -771,22 +768,20 @@
     font-size: 16px;
     margin-bottom: 20px;
   }
-  .panel .panel-content h1 {
-    font-size: 20px;
-    width: auto !important;
-    margin-bottom: 20px !important;
+  #panel-1 .panel-content h1 {
+    max-width: none;
   }
-  .panel .panel-content h3 {
-    font-size: 18px;
-    width: auto !important;
-    width: 90% !important;
-    margin: 0 auto;
+  #panel-2 .panel-content h1 {
+    max-width: none;
+  }
+  #panel-3 .panel-content h1 {
+    max-width: none;
+  }
+  #panel-4 .panel-content h1 {
+    max-width: none;
   }
   #pre-footer h1 {
-    font-size: 28px;
-  }
-  #pre-footer h3 {
-    font-size: 16px;
+    max-width: none;
   }
 }
 /*!
