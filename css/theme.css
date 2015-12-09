@@ -633,6 +633,9 @@
     width: 100%;
     position: static;
   }
+  #panel-1 .panel-content h1 {
+    margin: 0 auto;
+  }
   #panel-2 {
     background: url('../images/registarz-mobile-bg2.jpg') no-repeat center bottom;
     background-size: 100% auto;
@@ -652,6 +655,9 @@
   #panel-2 .panel-content {
     top: 0;
     position: static;
+  }
+  #panel-2 .panel-content h1 {
+    margin: 0 auto;
   }
   #panel-2 .panel-content h3 {
     max-width: 70%;
@@ -678,8 +684,7 @@
   }
   #panel-3 .panel-content h1 {
     max-width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
   }
   #panel-3 .panel-content h3 {
     margin-left: auto;
@@ -710,7 +715,7 @@
   }
   #panel-4 .panel-content h1 {
     max-width: 78%;
-    margin: 0 auto 20px;
+    margin: 0 auto;
   }
   #panel-4 .panel-content h3 {
     margin-left: auto;
@@ -749,10 +754,6 @@
     -ms-transform: translate3d(-20px, 23%, 0);
     -webkit-transform: translate3d(-20px, 23%, 0);
     -moz-transform: translate3d(-20px, 23%, 0);
-  }
-  #header {
-    padding-top: 140px;
-    padding-bottom: 200px;
   }
   #header h1 {
     margin-bottom: 30px;
