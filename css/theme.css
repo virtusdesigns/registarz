@@ -92,9 +92,14 @@
   margin: 0;
 }
 #header .logo {
-  display: block;
   width: 100%;
   margin: 60px auto 140px;
+}
+#header .logo.desktop {
+  display: block;
+}
+#header .logo.mobile {
+  display: none;
 }
 #header .header-ctas {
   width: 100%;
@@ -512,10 +517,10 @@
     /*width: 270px;*/
   }
   #header h1 {
-    font-size: 62px;
+    /*font-size: 62px;*/
   }
   #header h2 {
-    font-size: 33px;
+    /*font-size: 33px;*/
   }
   #header .header-ctas .button.btn-green {
     margin-left: 30px;
@@ -571,15 +576,22 @@
   }
   #header {
     position: relative;
-    padding-top: 170px;
-    padding-bottom: 400px;
+    padding-top: 20%;
+    padding-bottom: 60%;
+  }
+  #header .container {
+    padding: 0;
+    margin-top: 0;
   }
   #header .logo {
-    position: absolute;
-    top: 60px;
-    margin: 0;
     width: 80%;
-    left: 10%;
+    margin: 0 auto 20px;
+  }
+  #header .logo.desktop {
+    display: none;
+  }
+  #header .logo.mobile {
+    display: block;
   }
   #header .header-ctas {
     text-align: center;
@@ -717,8 +729,6 @@
 }
 @media all and (max-width: 580px) {
   #header {
-    padding-top: 140px;
-    padding-bottom: 200px;
     background-position: 78% center;
     background-size: auto 100%;
   }

@@ -92,9 +92,14 @@
 		margin: 0;
 	}
 	.logo {
-		display: block;
 		width: 100%;
 		margin: 60px auto 140px;
+		&.desktop {
+			display: block;
+		}
+		&.mobile {
+			display: none;
+		}
 	}
 	.header-ctas {
 		width: 100%;
@@ -519,10 +524,10 @@
 	}
 	#header {
 		h1 {
-			font-size: 62px;
+			/*font-size: 62px;*/
 		}
 		h2 {
-			font-size: 33px;
+			/*font-size: 33px;*/
 		}
 		.header-ctas {
 			.button.btn-green {
@@ -602,14 +607,21 @@
 	}
 	#header {
 		position: relative;
-		padding-top: 170px;
-		padding-bottom: 400px;
+		padding-top: 20%;
+		padding-bottom: 60%;
+		.container {
+			padding: 0;
+			margin-top: 0
+		}
 		.logo {
-			position: absolute;
-			top: 60px;
-			margin: 0;
 			width: 80%;
-			left: 10%;
+			margin: 0 auto 20px;
+				&.desktop {
+				display: none;
+			}
+			&.mobile {
+				display: block;
+			}
 		}
 		.header-ctas {
 			text-align: center;
@@ -753,8 +765,6 @@
 }
 @media all and (max-width: 580px) {
 	#header {
-		padding-top: 140px;
-		padding-bottom: 200px;
 		background-position: 78% center;
 		background-size: auto 100%;
 		h1 {
