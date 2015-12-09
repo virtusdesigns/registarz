@@ -547,6 +547,10 @@
   .panel .panel-content h3 {
     text-align: center !important;
   }
+  .button {
+    display: block;
+    margin: 0 auto;
+  }
   #header {
     position: relative;
     padding-top: 170px;
@@ -578,8 +582,16 @@
   #header h2 {
     font-size: 4.45vw;
   }
+  #panel-1 {
+    background: url('../images/registarz-mobile-bg1.jpg') no-repeat center bottom;
+    background-size: 100% auto;
+    padding: 88% 0;
+    height: auto;
+  }
   #panel-1 .container {
     top: 4%;
+    position: absolute;
+    width: 100%;
     transform: translateY(0);
     -moz-transform: translateY(0);
     -webkit-transform: translateY(0);
@@ -587,12 +599,20 @@
     -ms-transform: translateY(0);
   }
   #panel-1 .panel-content {
-    top: 60px;
-    right: 0;
+    top: 0;
     width: 100%;
+    position: static;
+  }
+  #panel-2 {
+    background: url('../images/registarz-mobile-bg2.jpg') no-repeat center bottom;
+    background-size: 100% auto;
+    padding: 88% 0;
+    height: auto;
   }
   #panel-2 .container {
     top: 4%;
+    position: absolute;
+    width: 100%;
     transform: translateY(0);
     -moz-transform: translateY(0);
     -webkit-transform: translateY(0);
@@ -601,9 +621,18 @@
   }
   #panel-2 .panel-content {
     top: 0;
+    position: static;
+  }
+  #panel-3 {
+    background: url('../images/registarz-mobile-bg3.jpg') no-repeat center bottom;
+    background-size: 100% auto;
+    padding: 88% 0;
+    height: auto;
   }
   #panel-3 .container {
     top: 4%;
+    position: absolute;
+    width: 100%;
     transform: translateY(0);
     -moz-transform: translateY(0);
     -webkit-transform: translateY(0);
@@ -612,13 +641,21 @@
   }
   #panel-3 .panel-content {
     width: 100%;
-    left: 0;
+    position: static;
   }
   #panel-3 .panel-content h3 {
     margin: 0 auto;
   }
+  #panel-4 {
+    background: url('../images/registarz-mobile-bg4.jpg') no-repeat center bottom;
+    background-size: 100% auto;
+    padding: 88% 0;
+    height: auto;
+  }
   #panel-4 .container {
     top: 4%;
+    position: absolute;
+    width: 100%;
     transform: translateY(0);
     -moz-transform: translateY(0);
     -webkit-transform: translateY(0);
@@ -628,7 +665,8 @@
   #panel-4 .panel-content {
     width: 100%;
     left: 0;
-    top: 60px;
+    top: 0;
+    position: static;
   }
   #panel-4 .panel-content h1 {
     max-width: 78%;

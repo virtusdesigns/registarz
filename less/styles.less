@@ -564,6 +564,7 @@
 	}
 }
 
+
 @media all and (max-width: 640px) {
 	.panel {
 		.container {
@@ -577,7 +578,11 @@
 				text-align: center !important;
 			}
 		}
-	}	
+	}
+	.button {
+		display: block;
+		margin: 0 auto;
+	}
 	#header {
 		position: relative;
 		padding-top: 170px;
@@ -610,26 +615,14 @@
 		}
 	}	
 	#panel-1 {
+		background: url('../images/registarz-mobile-bg1.jpg') no-repeat center bottom;
+		background-size: 100% auto;
+		padding: 88% 0;
+		height: auto;
 		.container {
 			top: 4%;
-			transform: translateY(0);
-			-moz-transform: translateY(0);
-			-webkit-transform: translateY(0);
-			-o-transform: translateY(0);
-			-ms-transform: translateY(0);
-		}
-		.panel-content {
-			top: 60px;
-			right: 0;
+			position: absolute;
 			width: 100%;
-			h1 {
-
-			}
-		}
-	}
-	#panel-2 {
-		.container {
-			top: 4%;
 			transform: translateY(0);
 			-moz-transform: translateY(0);
 			-webkit-transform: translateY(0);
@@ -638,14 +631,45 @@
 		}
 		.panel-content {
 			top: 0;
+			width: 100%;
+			position: static;
+			h1 {
+
+			}
+		}
+	}
+	#panel-2 {
+		background: url('../images/registarz-mobile-bg2.jpg') no-repeat center bottom;
+		background-size: 100% auto;
+		padding: 88% 0;
+		height: auto;
+		.container {
+			top: 4%;
+			position: absolute;
+			width: 100%;
+			transform: translateY(0);
+			-moz-transform: translateY(0);
+			-webkit-transform: translateY(0);
+			-o-transform: translateY(0);
+			-ms-transform: translateY(0);
+		}
+		.panel-content {
+			top: 0;
+			position: static;
 			h3 {
 
 			}
 		}
 	}
 	#panel-3 {
+		background: url('../images/registarz-mobile-bg3.jpg') no-repeat center bottom;
+		background-size: 100% auto;
+		padding: 88% 0;
+		height: auto;
 		.container {
 			top: 4%;
+			position: absolute;
+			width: 100%;
 			transform: translateY(0);
 			-moz-transform: translateY(0);
 			-webkit-transform: translateY(0);
@@ -654,7 +678,7 @@
 		}
 		.panel-content {
 			width: 100%;
-			left: 0;
+			position: static;
 			h1 {
 
 			}
@@ -665,8 +689,14 @@
 		}
 	}
 	#panel-4 {
+		background: url('../images/registarz-mobile-bg4.jpg') no-repeat center bottom;
+		background-size: 100% auto;
+		padding: 88% 0;
+		height: auto;
 		.container {
 			top: 4%;
+			position: absolute;
+			width: 100%;
 			transform: translateY(0);
 			-moz-transform: translateY(0);
 			-webkit-transform: translateY(0);
@@ -676,7 +706,8 @@
 		.panel-content {
 			width: 100%;
 			left: 0;
-			top: 60px;
+			top: 0;
+			position: static;
 			h1 {
 				max-width: 78%;
 				margin: 0 auto 20px;
@@ -699,9 +730,6 @@
 	}
 }
 @media all and (max-width: 580px) {
-	.button {
-
-	}
 	#header {
 		padding-top: 140px;
 		padding-bottom: 200px;
