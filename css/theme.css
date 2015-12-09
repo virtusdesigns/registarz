@@ -296,10 +296,13 @@
   }
 }
 @media all and (max-width: 1024px) {
+  #mobile-nav {
+    display: none;
+  }
   .navbar {
     position: fixed;
     width: 100%;
-    display: none;
+    display: block;
     background: #5dd923;
     height: 60px;
     margin: 0 -15px;
@@ -452,7 +455,7 @@
     position: fixed;
     display: block !important;
     top: 60px;
-    left: 15px;
+    left: 0;
     height: 0 !important;
     overflow: hidden !important;
     -webkit-transition: height 0.25s linear;
