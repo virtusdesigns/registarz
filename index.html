@@ -420,9 +420,9 @@
         var startY = $('#header').position().top + $('#header').outerHeight();
     $(window).scroll(function () {
         if( $(this).scrollTop() > startY ){
-            $('#mobile-nav').slideDown("slow");
+            $('#mobile-nav').slideDown(6000);
         }else{
-            $('#mobile-nav').slideUp("slow");
+            $('#mobile-nav').slideUp(6000);
         }
     });
 				</script>
