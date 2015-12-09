@@ -299,13 +299,14 @@
   .navbar {
     position: fixed;
     width: 100%;
-    display: block;
+    display: none;
     background: #5dd923;
     height: 60px;
     margin: 0 -15px;
   }
   .navbar .container {
     width: auto !important;
+    height: 60px;
   }
   .navbar .mobile-logo {
     float: right;
@@ -317,6 +318,7 @@
   }
   .navbar .navbar-header {
     float: none;
+    height: 60px;
   }
   .navbar .navbar-toggle {
     display: block;
@@ -447,10 +449,10 @@
     transition: height 0.25s linear;
   }
   .navbar-collapse.collapse {
-    position: absolute;
+    position: fixed;
     display: block !important;
     top: 60px;
-    left: 0;
+    left: 15px;
     height: 0 !important;
     overflow: hidden !important;
     -webkit-transition: height 0.25s linear;

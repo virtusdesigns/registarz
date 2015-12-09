@@ -414,5 +414,15 @@
         });
       });
     </script>
+    <script type="text/javascript">
+        var startY = $('#header').position().top + $('#header').outerHeight();
+    $(window).scroll(function () {
+        if( $(this).scrollTop() > startY ){
+            $('.navbar-static-top').slideDown();
+        }else{
+            $('.navbar-static-top').slideUp();
+        }
+    });
+				</script>
   </body>
 </html>
