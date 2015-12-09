@@ -571,6 +571,13 @@
   #header .header-ctas .button.btn-green {
     margin: 0 auto;
   }
+  #header h1 {
+    font-size: 8.5vw;
+    margin-bottom: 60px;
+  }
+  #header h2 {
+    font-size: 4.45vw;
+  }
   #panel-1 .container {
     top: 4%;
     transform: translateY(0);
