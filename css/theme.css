@@ -556,8 +556,22 @@
     position: absolute;
     top: 60px;
     margin: 0;
+    width: 80%;
+    left: 10%;
   }
-  #panel-1 .content {
+  #header .header-ctas {
+    text-align: center;
+  }
+  #header .header-ctas .button {
+    display: block;
+  }
+  #header .header-ctas .button.btn-white {
+    margin: 20px auto 20px;
+  }
+  #header .header-ctas .button.btn-green {
+    margin: 0 auto;
+  }
+  #panel-1 .container {
     top: 4%;
     transform: translateY(0);
     -moz-transform: translateY(0);
@@ -570,7 +584,7 @@
     right: 0;
     width: 100%;
   }
-  #panel-2 .content {
+  #panel-2 .container {
     top: 4%;
     transform: translateY(0);
     -moz-transform: translateY(0);
@@ -578,7 +592,10 @@
     -o-transform: translateY(0);
     -ms-transform: translateY(0);
   }
-  #panel-3 .content {
+  #panel-2 .panel-content {
+    top: 0;
+  }
+  #panel-3 .container {
     top: 4%;
     transform: translateY(0);
     -moz-transform: translateY(0);
@@ -593,7 +610,7 @@
   #panel-3 .panel-content h3 {
     margin: 0 auto;
   }
-  #panel-4 .content {
+  #panel-4 .container {
     top: 4%;
     transform: translateY(0);
     -moz-transform: translateY(0);
@@ -681,9 +698,6 @@
     font-size: 16px;
     margin-bottom: 20px;
   }
-  .panel .panel-content {
-    top: 30px !important;
-  }
   .panel .panel-content h1 {
     font-size: 20px;
     width: auto !important;
@@ -694,21 +708,6 @@
     width: auto !important;
     width: 90% !important;
     margin: 0 auto;
-  }
-  #panel-1 .navbar-nav {
-    width: 74%;
-  }
-  #panel-1 .navbar-nav li {
-    font-size: 12px;
-  }
-  #panel-1 .navbar-nav li a {
-    padding: 24px 0;
-  }
-  #panel-3 h3 {
-    width: 65% !important;
-  }
-  #panel-4 h3 {
-    width: 67% !important;
   }
   #pre-footer h1 {
     font-size: 28px;

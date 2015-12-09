@@ -577,8 +577,7 @@
 				text-align: center !important;
 			}
 		}
-	}
-	
+	}	
 	#header {
 		position: relative;
 		padding-top: 170px;
@@ -587,6 +586,20 @@
 			position: absolute;
 			top: 60px;
 			margin: 0;
+			width: 80%;
+			left: 10%;
+		}
+		.header-ctas {
+			text-align: center;
+			.button {
+				display: block;
+				&.btn-white {
+					margin: 20px auto 20px;
+				}
+				&.btn-green {
+					margin: 0 auto;
+				}
+			}
 		}
 		h1 {
 
@@ -594,10 +607,9 @@
 		h2 {
 
 		}
-	}
-	
+	}	
 	#panel-1 {
-		.content {
+		.container {
 			top: 4%;
 			transform: translateY(0);
 			-moz-transform: translateY(0);
@@ -615,7 +627,7 @@
 		}
 	}
 	#panel-2 {
-		.content {
+		.container {
 			top: 4%;
 			transform: translateY(0);
 			-moz-transform: translateY(0);
@@ -624,13 +636,14 @@
 			-ms-transform: translateY(0);
 		}
 		.panel-content {
+			top: 0;
 			h3 {
 
 			}
 		}
 	}
 	#panel-3 {
-		.content {
+		.container {
 			top: 4%;
 			transform: translateY(0);
 			-moz-transform: translateY(0);
@@ -651,7 +664,7 @@
 		}
 	}
 	#panel-4 {
-		.content {
+		.container {
 			top: 4%;
 			transform: translateY(0);
 			-moz-transform: translateY(0);
@@ -766,7 +779,6 @@
 	}
 	.panel {
 		.panel-content {
-			top: 30px !important;
 			h1 {
 				font-size: 20px;
 				width: auto !important;
@@ -780,28 +792,8 @@
 			}
 		}	
 	}
-	#panel-1 {
-	  .navbar-nav {
-	  	width: 74%;
-	  	li {
-	  		font-size: 12px;
-	  		a {
-	  			padding: 24px 0;
-	  		}
-	  	}
-	  }
-	}
-	#panel-3 {
-	  h3 {
-	  	width: 65% !important;
-	  }
-	}
-	#panel-4 {
 
-	  h3 {
-	  	width: 67% !important;
-	  }
-	}
+
 	
 	#pre-footer {
 		h1 {
