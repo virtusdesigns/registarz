@@ -295,12 +295,22 @@
 .mfp-iframe-scaler {
   padding-top: 40.25% !important;
 }
+@media all and (max-width: 1200px) {
+  .panel .container {
+    width: 94%;
+    padding: 0 !important;
+  }
+}
 @media all and (min-width: 1025px) {
   #navbar {
     display: none !important;
   }
 }
 @media all and (max-width: 1024px) {
+  .panel .container {
+    width: 94%;
+    padding: 0 !important;
+  }
   #mobile-nav {
     transition: all 0.4s ease-in-out;
     position: fixed;
@@ -508,34 +518,14 @@
   .navbar-collapse.collapse .navbar-nav li a:hover {
     background-color: #5ed127;
   }
-  .panel .container {
-    width: 820px;
-  }
 }
-@media all and (max-width: 768px) {
-  .button {
-    /*width: 270px;*/
-  }
-  #header h1 {
-    /*font-size: 62px;*/
-  }
-  #header h2 {
-    /*font-size: 33px;*/
-  }
-  #header .header-ctas .button.btn-green {
-    margin-left: 30px;
-  }
-  #header .header-ctas .button.btn-white {
-    margin-right: 30px;
-  }
+@media all and (max-width: 992px) {
   .panel .container {
-    width: 750px;
+    width: 94%;
+    padding: 0 !important;
   }
-  .panel h1 {
+  .panel .container h1 {
     font-size: 42px;
-  }
-  .panel h3 {
-    font-size: ;
   }
   #panel-1 .panel-content {
     width: 304px;
@@ -549,6 +539,12 @@
   #panel-4 .panel-content {
     width: 308px;
   }
+}
+@media all and (max-width: 768px) {
+  .panel .container {
+    width: 94%;
+    padding: 0 !important;
+  }
   #pre-footer h1 {
     font-size: 36px !important;
   }
@@ -556,7 +552,7 @@
     font-size: 24px !important;
   }
 }
-@media all and (max-width: 640px) {
+@media all and (max-width: 767px) {
   .panel .container {
     width: auto;
     padding: 0;
