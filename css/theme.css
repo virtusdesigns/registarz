@@ -751,6 +751,9 @@
     -webkit-transform: translate3d(-20px, 23%, 0);
     -moz-transform: translate3d(-20px, 23%, 0);
   }
+  #panel-3 .panel-content h1 {
+    max-width: 94%;
+  }
 }
 /*!
  *  Font Awesome 4.4.0 by @davegandy - http://fontawesome.io - @fontawesome
